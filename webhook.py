@@ -69,7 +69,7 @@ FAILURE_THRESHOLD = float(os.getenv('FAILURE_THRESHOLD', '3.0'))
 MIN_SAMPLES       = int(os.getenv('MIN_SAMPLES',         '5'))
 TOP_N_LINES       = int(os.getenv('TOP_N_LINES',         '3'))
 TOP_N_TESTCODES   = int(os.getenv('TOP_N_TESTCODES',     '3'))
-POLL_INTERVAL_SEC = int(os.getenv('POLL_INTERVAL_SEC',   '600'))
+POLL_INTERVAL_SEC = int(os.getenv('POLL_INTERVAL_SEC',   '1800'))
 SLA_HOURS         = int(os.getenv('SLA_HOURS',           '1'))
 WINDOW_MINUTES    = int(os.getenv('WINDOW_MINUTES',      '240'))
 
